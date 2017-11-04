@@ -1,0 +1,164 @@
+﻿body {
+    font-family: Arial;
+    margin:0;
+}
+
+div p {
+    background-color: black;
+    height: 80px;
+    padding-left: 40px;
+    margin: 0px;
+}
+
+.bt_cuenta {
+    float:right;
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    border: 2px;
+    margin-top:19px;
+    margin-right:10px;
+}
+
+    .bt_cuenta:hover {
+        background-color: #808080;
+        color:#fff;
+    }
+
+.bt_guardar {
+    text-decoration: none;
+    text-align:center;
+    padding: 10px;
+    color: #333;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    border: 2px;
+    margin-top: 19px;
+    margin-left: 45%;
+}
+
+    .bt_guardar:hover {
+        background-color: #808080;
+        color: #fff;
+    }
+
+    .bt_cuenta#guardar{
+        float:none;
+        text-align:center;
+        margin:0;
+    }
+
+h1.tituloPortada{
+    color:#fff;
+    padding-left:50px;
+    padding-top:20px;
+    font-size:50px;
+}
+
+h1.titulo {
+    color: #000;
+    padding: 30px;    
+}
+
+.clear{
+    clear:both;
+}
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    opacity: 0.9;
+}
+    
+    .nav a {
+        float:left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 50px;
+        text-decoration: none;
+
+    }
+     .nav a.activo {
+        background-color: red;
+
+     }
+
+.cat .dropbtn {
+    float: left;
+    overflow: hidden;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+    
+    .nav a:hover, .cat:hover .dropbtn {
+        background-color: red;
+    }
+    
+.subcat {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 47px 0px 0px 102px;
+}
+
+    
+    .subcat a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+            
+      .subcat a:hover {
+        background-color: #ddd;
+    }
+
+
+.cat:hover .subcat {
+    display: block;
+}
+
+.contenido{
+    padding: 10px 40px;
+    
+}
+
+.contenedor{
+    background-color:white;
+    opacity:0.8;
+    margin:5px;
+    padding: 0 10px 5px 0;
+}
+
+.form {
+    background-color: #f0f0f0;
+    opacity: 0.95;
+    margin: 60px 350px 60px 350px;
+    padding: 0 80px 30px 30px;
+    border-radius: 40px;
+}
+
+.caja {
+    border: 2px solid #eaeaea;
+    border-radius: 7px;
+    height: 30px;
+}
+
+.alerta{
+    color:red;
+    font-size:12px;
+}
+
+

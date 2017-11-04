@@ -1,0 +1,201 @@
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\ApplicationInsights.config
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\roslyn\csc.exe
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\roslyn\System.Collections.Immutable.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\roslyn\vbc.exe
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\roslyn\VBCSCompiler.exe
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\roslyn\VBCSCompiler.exe.config
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\NetClare.dll.config
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\NetClare.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\NetClare.pdb
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.AI.Web.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.AI.WindowsServer.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.ApplicationInsights.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.AI.Web.xml
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.AI.WindowsServer.xml
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.ApplicationInsights.xml
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\obj\Debug\NetClare.csprojResolveAssemblyReference.cache
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\obj\Debug\NetClare.dll
+c:\users\davidjtp\documents\visual studio 2015\Projects\NetClare\NetClare\obj\Debug\NetClare.pdb
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\ApplicationInsights.config
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\roslyn\csc.exe
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\roslyn\vbc.exe
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\roslyn\VBCSCompiler.exe
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\NetClare.dll.config
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\NetClare.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\NetClare.pdb
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.AI.Web.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.ApplicationInsights.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.AI.Web.xml
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.ApplicationInsights.xml
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\obj\Debug\NetClare.csprojResolveAssemblyReference.cache
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\obj\Debug\NetClare.dll
+C:\Users\DAVIDJTP\Desktop\NetClare\NetClare\obj\Debug\NetClare.pdb
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\ApplicationInsights.config
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\roslyn\csc.exe
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\roslyn\vbc.exe
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\roslyn\VBCSCompiler.exe
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\NetClare.dll.config
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\NetClare.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\NetClare.pdb
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.AI.Web.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.AI.Web.xml
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\obj\Debug\NetClare.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\obj\Debug\NetClare.dll
+C:\Users\alumno\Downloads\NetClare\NetClare\NetClare\obj\Debug\NetClare.pdb
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\ApplicationInsights.config
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\roslyn\csc.exe
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\roslyn\vbc.exe
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\roslyn\VBCSCompiler.exe
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\NetClare.dll.config
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\NetClare.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\NetClare.pdb
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.AI.Web.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.ApplicationInsights.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.AI.Web.xml
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.ApplicationInsights.xml
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\obj\Debug\NetClare.csprojResolveAssemblyReference.cache
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\obj\Debug\NetClare.csproj.CoreCompileInputs.cache
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\obj\Debug\NetClare.dll
+C:\Users\WENDY\Downloads\NetClare (1)\NetClare\NetClare\obj\Debug\NetClare.pdb
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\ApplicationInsights.config
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\roslyn\csc.exe
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\roslyn\vbc.exe
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\roslyn\VBCSCompiler.exe
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\NetClare.dll.config
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\NetClare.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\NetClare.pdb
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.Web.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.ApplicationInsights.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.Web.xml
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.ApplicationInsights.xml
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\obj\Debug\NetClare.csprojResolveAssemblyReference.cache
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\obj\Debug\NetClare.csproj.CoreCompileInputs.cache
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\obj\Debug\NetClare.dll
+C:\Users\WENDY\Documents\NetClare_3011\NetClare\NetClare\obj\Debug\NetClare.pdb
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\ApplicationInsights.config
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\roslyn\csc.exe
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\roslyn\vbc.exe
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\roslyn\VBCSCompiler.exe
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\NetClare.dll.config
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\NetClare.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\NetClare.pdb
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.Web.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.ApplicationInsights.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.Web.xml
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.ApplicationInsights.xml
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\obj\Debug\NetClare.csprojResolveAssemblyReference.cache
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\obj\Debug\NetClare.csproj.CoreCompileInputs.cache
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\obj\Debug\NetClare.dll
+C:\Users\CARLOS CRISTOBAL\Downloads\NetClare_3011 (1)\NetClare_3011\NetClare\NetClare\obj\Debug\NetClare.pdb

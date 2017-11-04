@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Usuario.master.cs" Inherits="NetClare.Usuario" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="CSS/ESTILOS.css" rel="stylesheet" />
+    <style>
+        body{
+            background-color:black;
+            padding:0px;
+            color: #fff;
+        }
+        
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <div>
+            <p>
+                <a href="Default.aspx"><img src="IMG/logo_Netclare.png" width="200" style="padding-top:7px;" /></a>
+            </p>
+        </div> 
+        <div class="nav" >
+            
+            <a href="Default.aspx">INICIO</a>
+            <div class="cat">
+                <button class="dropbtn">CATEGORÍAS</button>
+                <div class="subcat">
+                    <a href="Accion.aspx">ACCION</a>
+                    <a href="Drama.aspx">DRAMA</a>
+                    <a href="Comedia.aspx">COMEDIA</a>
+                    <a href="Terror.aspx">TERROR</a>
+                    <a href="InicioUsuario.aspx">Todas las Categorías</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

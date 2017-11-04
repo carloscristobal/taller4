@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NCliente.master.cs" Inherits="NetClare.NCliente" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="CSS/ESTILOS.css" rel="stylesheet" />
+    <script>
+        function mostrar(contenido) {
+            vista = document.getElementById(contenido).style.display;
+            if (vista == 'block') {
+                vista = 'none';
+            } else {
+                vista = 'block';
+            }
+            document.getElementById(contenido).style.display = vista;
+
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <a class="bt_cuenta" href="Login.aspx">Ingresar</a><a class="bt_cuenta" href="Registro.aspx">Crear Cuenta</a>
+            </div>
+            <p>
+                <a href="Default.aspx"><img src="IMG/logo_Netclare.png" width="200" style="padding-top:7px;" /></a>
+            </p>
+        </div>        
+    </header>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

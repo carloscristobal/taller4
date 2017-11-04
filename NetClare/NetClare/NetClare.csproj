@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{02B0C08E-ADD4-4972-9A49-7F4E857E4B29}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetClare</RootNamespace>
+    <AssemblyName>NetClare</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Accion.aspx" />
+    <Content Include="App_Data\Accion.xml" />
+    <Content Include="App_Data\Comedia.xml" />
+    <Content Include="App_Data\Drama.xml" />
+    <Content Include="App_Data\Terror.xml" />
+    <Content Include="CATERGORIAS\accion.png" />
+    <Content Include="CATERGORIAS\comedia.png" />
+    <Content Include="CATERGORIAS\drama.png" />
+    <Content Include="CATERGORIAS\terrror.jpg" />
+    <Content Include="Comedia.aspx" />
+    <Content Include="CSS\css1.css" />
+    <Content Include="CSS\ESTILOS.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Drama.aspx" />
+    <Content Include="IMG\fondo2.jpg" />
+    <Content Include="IMG\fondo3.jpg" />
+    <Content Include="IMG\fondo4.jpg" />
+    <Content Include="IMG\fondo_form.jpg" />
+    <Content Include="IMG\logo.png" />
+    <Content Include="IMG\LOGOV1.png" />
+    <Content Include="IMG\logo_Netclare.png" />
+    <Content Include="IMG\Portadaimagen.jpg" />
+    <Content Include="InicioUsuario.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pago.aspx" />
+    <Content Include="PELICULAS PORTADS\ACCION\111.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\11SPIDERMAN.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\1BABY.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\AMENAZA.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\BAYWATR.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\CASABLANCA.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\COLLOSAL.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\CTROOS.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\D13.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\EL GUARDAESPALDAS.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\EL ULTIMO REY.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\FEARLESS.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\GHOST.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\GODZILLA.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\GUARDIANES.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\JUEGO.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\LEGO BAT.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\MARINE 5.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\MOMIA.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\MUJER MARA.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\PANDEMIC.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\PIRATASCARIBE.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\RUNNER.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\SECRUTITY.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\SNK.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\SNK2.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\SWATR.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\TAXI.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\TEKKEN.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\THOR.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\TORRE OSCURA.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\TRASNSFORM.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\VOLCANO.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\WENDY.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\WHELLMAN.jpg" />
+    <Content Include="PELICULAS PORTADS\ACCION\XXX.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\11PRO.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\AMA.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\AMATEUR.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\AMRR.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\BALNCANIEV.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\BBY.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\CALZ.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\CANATA.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\CARS.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\CARS1.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\CHIPS.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\CLAN.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\CUER.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\DOS.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\EMOJI.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\GIRL.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\GOLPE.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\HABLA.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\JEFASO.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\JK.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\JK3.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\LOVER.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\MAD.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\MINIMO.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\MOANA.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\MR.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\NA.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\NIÑO.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\OFFLINE.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\PERFEC.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\PITUFOS.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\SANTA.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\SEPA.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\SLAM.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\TRAV.jpg" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\ZA.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\222.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\BESA Y LLORA.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\CURIOSO CASO DE BENJAMIN BUTTON.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\eclipse total.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\EL CIRCULO.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\EL HOMBRE PERFECTO.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\EL IMPERIO DE SOMBRAS.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\EL LIBRO DE HENRY.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\elle.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\EN HONOR A LA VERDAD.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\fallen.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\HISTORIA DE VENGANZA.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\la razon de estar contigo.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\lion.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\MARJORIE PRIME.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\MI PRIMA RACHEL.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\olvidate de mi.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\PLANETA SIMIOS.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\PROMESA.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\q7L0cHxy7ecGdlGUsFn15cIUvOM.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\rey arturo.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\SECUESTRADO.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\SI NO DESPIERTO.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\SONG TO SONG.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\the babysister.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\todo todo.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\una historia.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\UNA NOCHE FUERA DE CONTROL.jpg" />
+    <Content Include="PELICULAS PORTADS\DRAMA\wCdR0vfF1MOyU0Sahs1rpz2Fzwj.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\agarrame esos fantasmas.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\anabelle.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\clwon.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\dejame entrar.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\dejame salir.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\el aro 2.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\el exorcista.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\el juego de gerald.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\el rito.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\ela ro.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\finders keep.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\halloween.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\halloween1.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\halloween2.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\halloween3.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\halloween4.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\halloween5.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\hell baby.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\la bruja de blair.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\la cosa.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\la huerfana.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\la sombra.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\la trampa del mal.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\la zonamuerta.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\los chicos del maiz.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\no estamos solos.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\nunca apagues la luz.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\ouija.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\posesion.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\resident evil.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\resident evill.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\satanico.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\scream.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\siniestro.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\tu eres el siguiente.jpg" />
+    <Content Include="PELICULAS PORTADS\TERROR\viral.jpg" />
+    <Content Include="Registro.aspx" />
+    <Content Include="NCliente.Master" />
+    <Content Include="Terror.aspx" />
+    <Content Include="Usuario.Master" />
+    <Content Include="PELICULAS PORTADS\ACCION\Thumbs.db" />
+    <Content Include="PELICULAS PORTADS\COMEDIA\Thumbs.db" />
+    <Content Include="PELICULAS PORTADS\DRAMA\Thumbs.db" />
+    <Content Include="PELICULAS PORTADS\TERROR\Thumbs.db" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accion.aspx.cs">
+      <DependentUpon>Accion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accion.aspx.designer.cs">
+      <DependentUpon>Accion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Comedia.aspx.cs">
+      <DependentUpon>Comedia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comedia.aspx.designer.cs">
+      <DependentUpon>Comedia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Drama.aspx.cs">
+      <DependentUpon>Drama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Drama.aspx.designer.cs">
+      <DependentUpon>Drama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="InicioUsuario.aspx.cs">
+      <DependentUpon>InicioUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InicioUsuario.aspx.designer.cs">
+      <DependentUpon>InicioUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NCliente.Master.cs">
+      <DependentUpon>NCliente.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NCliente.Master.designer.cs">
+      <DependentUpon>NCliente.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pago.aspx.cs">
+      <DependentUpon>Pago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pago.aspx.designer.cs">
+      <DependentUpon>Pago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registro.aspx.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro.aspx.designer.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terror.aspx.cs">
+      <DependentUpon>Terror.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terror.aspx.designer.cs">
+      <DependentUpon>Terror.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.Master.cs">
+      <DependentUpon>Usuario.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario.Master.designer.cs">
+      <DependentUpon>Usuario.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54235</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54235/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

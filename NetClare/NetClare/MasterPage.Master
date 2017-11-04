@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="NetClare.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <link href="CSS/ESTILOS.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head> 
+<body>
+    <header>
+       
+        <div class="logo">
+        <img src="IMG/LOGOV1.png" />
+
+        </div>
+     
+        <div class="navEntero">
+        <nav >
+        <ul>
+            <li><a href="Inicio.aspx">INICIO</a> </></li>
+            <li><a href="Categorias.aspx">CATEGORIAS</a>
+                <ul class="drop-down">
+                    <li><a href="#">Toda las categorias</a></li>
+                    <li><a href="#">ACCION</a></li>
+                    <li><a href="#">COMEDIA</a></li>
+                    <li><a href="#">DRAMA</a></li>
+                </ul>
+            </li>
+            <li><a href="Nosotros.aspx">NOSOTROS</a></li>
+
+
+            <li><a href="Contactenos.aspx">CONTACTENOS</a></li>
+        </ul>
+        </nav>
+    </div>
+    </header>
+
+
+
+
+
+
+
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
